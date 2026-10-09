@@ -62,8 +62,11 @@ cc_library_shared {
         ],
     }),
 
+    local_include_dirs: [
+        "../hal",
+    ],
+
     include_dirs: [
-        "hardware/qcom/audio/hal",
         "system/media/audio_effects/include",
     ],
 
@@ -102,8 +105,11 @@ cc_library_shared {
         ],
     }),
 
+    local_include_dirs: [
+        "../hal",
+    ],
+
     include_dirs: [
-        "hardware/qcom/audio/hal",
         "system/media/audio/include/system",
         "system/media/audio_effects/include",
     ],
