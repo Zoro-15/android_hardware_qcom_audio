@@ -62,11 +62,8 @@ cc_library_shared {
         ],
     }),
 
-    local_include_dirs: [
-        "../hal",
-    ],
-
     include_dirs: [
+        "hardware/qcom-caf/sdm660/audio/hal",
         "system/media/audio_effects/include",
     ],
 
@@ -105,11 +102,8 @@ cc_library_shared {
         ],
     }),
 
-    local_include_dirs: [
-        "../hal",
-    ],
-
     include_dirs: [
+        "hardware/qcom-caf/sdm660/audio/hal",
         "system/media/audio/include/system",
         "system/media/audio_effects/include",
     ],
