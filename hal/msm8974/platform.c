@@ -248,8 +248,8 @@ enum {
 };
 
 #define PLATFORM_CONFIG_KEY_OPERATOR_INFO "operator_info"
-char vendor_config_path[VENDOR_CONFIG_PATH_MAX_LENGTH];
-char xml_file_path[VENDOR_CONFIG_FILE_MAX_LENGTH];
+static char vendor_config_path[VENDOR_CONFIG_PATH_MAX_LENGTH];
+static char xml_file_path[VENDOR_CONFIG_FILE_MAX_LENGTH];
 
 struct operator_info {
     struct listnode list;
